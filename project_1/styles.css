@@ -1,0 +1,99 @@
+body {
+  padding-top: 50px;
+}
+
+.bio img {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 25%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.about-description {
+  width: 65%;
+  text-align: justify;
+  padding: 10px;
+}
+
+.about-projects {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project-picture {
+  width: 50%;
+}
+
+.project-picture img {
+  width: 100%;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-description {
+  width: 50%;
+  padding: 10px;
+}
+
+.contact-social-media {
+  width: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-social-media img {
+  width: 100%;
+}
+
+.contact-social-media img:hover {
+  cursor: pointer;
+}
+
+.contact-linked-in, .contact-github {
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-social-media {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    width: 50%;
+  }
+
+  .about-content {
+    display: block;
+  }
+
+  .about-description, .about-projects {
+    width: 100%;
+  }
+}
+
+footer {
+  text-align: center;
+}
